@@ -1,0 +1,11 @@
+# Project identification
+sonar.projectKey=CreditCardValidatorAPI
+sonar.projectName=CreditCardValidatorAPI
+sonar.projectVersion=1.0
+
+# Paths are relative to the sonar-project.properties file
+sonar.sources=.
+sonar.inclusions=**/*.cs
+
+# Encoding of the source code
+sonar.sourceEncoding=UTF-8

@@ -1,0 +1,7 @@
+dotnet sonarscanner begin /k:"C:\Users\ragin\source\repos\Credit-Card-Validator-API" /d:sonar.login="sqa_b6a7f2dba3dad3def4c8cc86bac7d015a9af38b7"
+
+
+Ragini
+
+
+sqp_f18ef0b310c505b52ca78f31955dfa80c21f5209
