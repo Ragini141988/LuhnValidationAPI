@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0b927362-5e1f-47c7-964d-584105285aaa" name="ragin@LAPTOP-NOBUJLRM 2024-06-17 06:14:21" runUser="LAPTOP-NOBUJLRM\ragin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2024-06-17T06:14:21.0550824-04:00" queuing="2024-06-17T06:14:21.0550824-04:00" start="2024-06-17T06:14:19.6890320-04:00" finish="2024-06-17T06:14:21.0742612-04:00" />
+  <TestSettings name="default" id="12723495-71e3-43c4-b6df-332be46a68c3">
+    <Deployment runDeploymentRoot="ragin_LAPTOP-NOBUJLRM_2024-06-17_06_14_21" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="6da1165f-f702-4777-a86b-29459667efcb" testId="60de7ff4-cce7-0df4-05ea-206466eaa2ff" testName="ValidateCreditCard_ValidDiscover_ReturnsTrue" computerName="LAPTOP-NOBUJLRM" duration="00:00:00.0000904" startTime="2024-06-17T06:14:20.7734611-04:00" endTime="2024-06-17T06:14:20.7734611-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6da1165f-f702-4777-a86b-29459667efcb" />
+    <UnitTestResult executionId="35710146-37b5-4870-a858-e88aa9befd0d" testId="50141f6c-f5a1-d07a-7338-3f505434aa7a" testName="ValidateCreditCard_Empty_ReturnsBadRequest" computerName="LAPTOP-NOBUJLRM" duration="00:00:00.0008206" startTime="2024-06-17T06:14:20.7734611-04:00" endTime="2024-06-17T06:14:20.7744614-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35710146-37b5-4870-a858-e88aa9befd0d" />
+    <UnitTestResult executionId="8c413190-59b3-49c1-9f33-061b0cdb9565" testId="da84c9f1-4d37-0816-5205-d64051f57a51" testName="ValidateCreditCard_ValidVisa_ReturnsTrue" computerName="LAPTOP-NOBUJLRM" duration="00:00:00.0233689" startTime="2024-06-17T06:14:20.5887412-04:00" endTime="2024-06-17T06:14:20.7654467-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c413190-59b3-49c1-9f33-061b0cdb9565" />
+    <UnitTestResult executionId="13d1ea45-a6e1-420b-865b-835a36a8a412" testId="d7183a3a-a8fb-d7ec-dbe8-1f3987648654" testName="ValidateCreditCard_NonDigitCharacters_ReturnsBadRequest" computerName="LAPTOP-NOBUJLRM" duration="00:00:00.0000765" startTime="2024-06-17T06:14:20.7744614-04:00" endTime="2024-06-17T06:14:20.7754617-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13d1ea45-a6e1-420b-865b-835a36a8a412" />
+    <UnitTestResult executionId="27d578a7-290e-4ac9-9dda-ebf2a108e06a" testId="48999fca-1ad8-e053-cce6-9961b6c346f3" testName="ValidateCreditCard_ValidVisa_Another_ReturnsTrue" computerName="LAPTOP-NOBUJLRM" duration="00:00:00.0000700" startTime="2024-06-17T06:14:20.7734611-04:00" endTime="2024-06-17T06:14:20.7734611-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27d578a7-290e-4ac9-9dda-ebf2a108e06a" />
+    <UnitTestResult executionId="3531fcc6-b0da-41cd-87b8-ad55a5209974" testId="84bbbcab-b1d7-ff14-f467-a6c810272bdc" testName="ValidateCreditCard_InvalidLuhnNumber_ReturnsFalse" computerName="LAPTOP-NOBUJLRM" duration="00:00:00.0001310" startTime="2024-06-17T06:14:20.7734611-04:00" endTime="2024-06-17T06:14:20.7734611-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3531fcc6-b0da-41cd-87b8-ad55a5209974" />
+    <UnitTestResult executionId="e68ebb45-d39c-450e-a2f0-22323f809228" testId="359d8f85-6498-5e27-c990-8a86c76a93c6" testName="TestMethod1" computerName="LAPTOP-NOBUJLRM" duration="00:00:00.0003982" startTime="2024-06-17T06:14:20.7754617-04:00" endTime="2024-06-17T06:14:20.7754617-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e68ebb45-d39c-450e-a2f0-22323f809228">
+      <Output>
+        <StdOut>Hello</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ValidateCreditCard_Empty_ReturnsBadRequest" storage="c:\users\ragin\source\repos\creditcardvalidatorapi\tests\creditcardvalidatorapi.tests\creditcardvalidatorapi.tests\bin\debug\creditcardvalidatorapi.tests.dll" id="50141f6c-f5a1-d07a-7338-3f505434aa7a">
+      <Execution id="35710146-37b5-4870-a858-e88aa9befd0d" />
+      <TestMethod codeBase="C:\Users\ragin\source\repos\CreditCardValidatorAPI\tests\CreditCardValidatorAPI.Tests\CreditCardValidatorAPI.Tests\bin\Debug\CreditCardValidatorAPI.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CreditCardControllerTests" name="ValidateCreditCard_Empty_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="ValidateCreditCard_ValidVisa_Another_ReturnsTrue" storage="c:\users\ragin\source\repos\creditcardvalidatorapi\tests\creditcardvalidatorapi.tests\creditcardvalidatorapi.tests\bin\debug\creditcardvalidatorapi.tests.dll" id="48999fca-1ad8-e053-cce6-9961b6c346f3">
+      <Execution id="27d578a7-290e-4ac9-9dda-ebf2a108e06a" />
+      <TestMethod codeBase="C:\Users\ragin\source\repos\CreditCardValidatorAPI\tests\CreditCardValidatorAPI.Tests\CreditCardValidatorAPI.Tests\bin\Debug\CreditCardValidatorAPI.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CreditCardControllerTests" name="ValidateCreditCard_ValidVisa_Another_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="ValidateCreditCard_InvalidLuhnNumber_ReturnsFalse" storage="c:\users\ragin\source\repos\creditcardvalidatorapi\tests\creditcardvalidatorapi.tests\creditcardvalidatorapi.tests\bin\debug\creditcardvalidatorapi.tests.dll" id="84bbbcab-b1d7-ff14-f467-a6c810272bdc">
+      <Execution id="3531fcc6-b0da-41cd-87b8-ad55a5209974" />
+      <TestMethod codeBase="C:\Users\ragin\source\repos\CreditCardValidatorAPI\tests\CreditCardValidatorAPI.Tests\CreditCardValidatorAPI.Tests\bin\Debug\CreditCardValidatorAPI.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CreditCardControllerTests" name="ValidateCreditCard_InvalidLuhnNumber_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\ragin\source\repos\creditcardvalidatorapi\tests\creditcardvalidatorapi.tests\creditcardvalidatorapi.tests\bin\debug\creditcardvalidatorapi.tests.dll" id="359d8f85-6498-5e27-c990-8a86c76a93c6">
+      <Execution id="e68ebb45-d39c-450e-a2f0-22323f809228" />
+      <TestMethod codeBase="C:\Users\ragin\source\repos\CreditCardValidatorAPI\tests\CreditCardValidatorAPI.Tests\CreditCardValidatorAPI.Tests\bin\Debug\CreditCardValidatorAPI.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CreditCardValidatorAPI.Tests.UnitTest1" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="ValidateCreditCard_ValidDiscover_ReturnsTrue" storage="c:\users\ragin\source\repos\creditcardvalidatorapi\tests\creditcardvalidatorapi.tests\creditcardvalidatorapi.tests\bin\debug\creditcardvalidatorapi.tests.dll" id="60de7ff4-cce7-0df4-05ea-206466eaa2ff">
+      <Execution id="6da1165f-f702-4777-a86b-29459667efcb" />
+      <TestMethod codeBase="C:\Users\ragin\source\repos\CreditCardValidatorAPI\tests\CreditCardValidatorAPI.Tests\CreditCardValidatorAPI.Tests\bin\Debug\CreditCardValidatorAPI.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CreditCardControllerTests" name="ValidateCreditCard_ValidDiscover_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="ValidateCreditCard_NonDigitCharacters_ReturnsBadRequest" storage="c:\users\ragin\source\repos\creditcardvalidatorapi\tests\creditcardvalidatorapi.tests\creditcardvalidatorapi.tests\bin\debug\creditcardvalidatorapi.tests.dll" id="d7183a3a-a8fb-d7ec-dbe8-1f3987648654">
+      <Execution id="13d1ea45-a6e1-420b-865b-835a36a8a412" />
+      <TestMethod codeBase="C:\Users\ragin\source\repos\CreditCardValidatorAPI\tests\CreditCardValidatorAPI.Tests\CreditCardValidatorAPI.Tests\bin\Debug\CreditCardValidatorAPI.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CreditCardControllerTests" name="ValidateCreditCard_NonDigitCharacters_ReturnsBadRequest" />
+    </UnitTest>
+    <UnitTest name="ValidateCreditCard_ValidVisa_ReturnsTrue" storage="c:\users\ragin\source\repos\creditcardvalidatorapi\tests\creditcardvalidatorapi.tests\creditcardvalidatorapi.tests\bin\debug\creditcardvalidatorapi.tests.dll" id="da84c9f1-4d37-0816-5205-d64051f57a51">
+      <Execution id="8c413190-59b3-49c1-9f33-061b0cdb9565" />
+      <TestMethod codeBase="C:\Users\ragin\source\repos\CreditCardValidatorAPI\tests\CreditCardValidatorAPI.Tests\CreditCardValidatorAPI.Tests\bin\Debug\CreditCardValidatorAPI.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="CreditCardControllerTests" name="ValidateCreditCard_ValidVisa_ReturnsTrue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="60de7ff4-cce7-0df4-05ea-206466eaa2ff" executionId="6da1165f-f702-4777-a86b-29459667efcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50141f6c-f5a1-d07a-7338-3f505434aa7a" executionId="35710146-37b5-4870-a858-e88aa9befd0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da84c9f1-4d37-0816-5205-d64051f57a51" executionId="8c413190-59b3-49c1-9f33-061b0cdb9565" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7183a3a-a8fb-d7ec-dbe8-1f3987648654" executionId="13d1ea45-a6e1-420b-865b-835a36a8a412" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48999fca-1ad8-e053-cce6-9961b6c346f3" executionId="27d578a7-290e-4ac9-9dda-ebf2a108e06a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84bbbcab-b1d7-ff14-f467-a6c810272bdc" executionId="3531fcc6-b0da-41cd-87b8-ad55a5209974" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="359d8f85-6498-5e27-c990-8a86c76a93c6" executionId="e68ebb45-d39c-450e-a2f0-22323f809228" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="7" executed="7" passed="7" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.17.0.0: Test execution startedRunning all tests in C:\Users\ragin\source\repos\CreditCardValidatorAPI\tests\CreditCardValidatorAPI.Tests\CreditCardValidatorAPI.Tests\bin\Debug\CreditCardValidatorAPI.Tests.dll   NUnit3TestExecutor discovered 0 of 0 NUnit test casesNUnit Adapter 3.17.0.0: Test execution complete</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
